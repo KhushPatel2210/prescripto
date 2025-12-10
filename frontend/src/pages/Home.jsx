@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../components/Header";
+import SpecialityMenu from "../components/SpecialityMenu";
+import TopDoctor from "../components/TopDoctor";
 
 const Home = () => {
   return (
     <div>
-      <div className="bg-red-500 text-white p-10 text-3xl">Tailwind Test</div>
+      <Header />
+      <SpecialityMenu />
+      <TopDoctor />
     </div>
   );
 };
